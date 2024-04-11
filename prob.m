@@ -4,7 +4,7 @@ path = 'mnist_test.csv';
 T = readtable(path);
 matrixData = table2array(T);
 len_data = length(matrixData);
-len_data = 1000; 
+len_data = 10000; 
 
 %M = 600;
 N = 784;
